@@ -181,8 +181,19 @@ th{
     padding-top: 20px;
 }
 
-/********** Sign In **********/
+/********** Give **********/
 
+.paypal{
+    text-align: center;
+}
+
+/********* Admin Page **********/
+
+body {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #eee;
+}
 .form-signin {
     max-width: 330px;
     padding: 15px;
