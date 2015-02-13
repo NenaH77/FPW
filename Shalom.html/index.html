@@ -15,8 +15,6 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="css/carousel.css" rel="stylesheet">
 
 
 </head>
@@ -27,7 +25,7 @@
         <a class="home" rel="homepage" title="Shalom of Bay City Church" href="index.html"><img class="logo" src="image/logo.png" alt="Shalom Logo" /></a>
 <!-- Nav -->
         <nav id="mynavs" class="navbar">
-            <div class="container">
+            <div id="navcontainer" class="container">
                 <div class="navbar-header">
                     <button type="button" id="mynavs1" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                         <span class="sr-only">Toggle navigation</span>
@@ -44,7 +42,7 @@
                         <li><a href="about.html">About Us</a></li>
                         <li class="dropdown">
                             <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Ministry <span class="caret"></span></a>
-                            <ul class="dropdown-menu" role="menu">
+                            <ul class="dropdown-menu" #navbarrole="menu">
                                 <li><a href="ministries.html">All Ministries</a></li>
                                 <li><a href="smallgrp.html">Small Group</a></li>
                             </ul>
@@ -108,22 +106,22 @@
 
     <!-- Features -->
     <div class="container_marketing">
-        <div class="row">
-            <div class="col-lg-4">
+        <div id="cir" class="row">
+            <div id="find" class="col-lg-4">
                 <img class="img-circle" src="image/map1.png" alt="Find Us" width="150" height="100" />
                 <h2>Find Us</h2>
                 <p>Use the map to see where we are located.</p>
                 <p><a class="btn" href="location.html" role="button">View details &raquo;</a></p>
             </div><!--close col-lg-4 -->
 
-            <div class="col-lg-4">
+            <div id="grp" class="col-lg-4">
                 <img class="img-circle" src="image/grp1_q.jpg" alt="Small Group" width="150" height="100" />
                 <h2>Small Group</h2>
                 <p>Choose from our variety of small groups.</p>
                 <p><a class="btn" href="ministries.html" role="button">View details &raquo;</a></p>
             </div><!--close col-lg-4 -->
 
-            <div class="col-lg-4">
+            <div id="new" class="col-lg-4">
                 <img class="img-circle" src="image/guy.png" alt="I'm new" width="150" height="100" />
                 <h2>I'm New</h2>
                 <p>What you can expect from Shalom</p>
@@ -143,8 +141,8 @@
 
         <!--<hr class="featurette-divider">-->
 
-        <div class="row">
-            <div class="col-lg-6">
+        <div id="e" class="row">
+            <div id="upcoming1" class="col-lg-6">
                 <img class="event" src="image/Lead.png" alt="leadGrp" width="200" height="100">
 
                 <h3>Lead a Group</h3>
@@ -153,7 +151,7 @@
             </div><!--close col -->
 
 
-            <div class="col-lg-6">
+            <div id="upcoming2" class="col-lg-6">
                 <img class="event" src="image/partner.png" alt="partner" width="200" height="100">
 
                 <h3>Partnership Class</h3>

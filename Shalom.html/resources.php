@@ -15,9 +15,6 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="css/carousel.css" rel="stylesheet">
-
     <!-- modernizr -->
     <script type="text/javascript" src="js/modernizr.js"></script>
 
@@ -52,7 +49,7 @@
                                 <li><a href="smallgrp.html">Small Group</a></li>
                             </ul>
                         </li>
-                        <li><a href="resources.html">Resources</a></li>
+                        <li><a href="resources.php">Resources</a></li>
                         <li><a href="serve.html">WeServ</a></li>
                         <li><a href="give.html">Give Online</a></li>
                     </ul>
@@ -104,7 +101,8 @@
 
 
 
-
+</td>
+</table>
 
 
 
